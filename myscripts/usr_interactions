@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "What is your Name?"
+read name
+echo  "Your name entered on screen is $name"
+#the other way of reading the same instead of echo si
+read -p "The New name from the terminal you entered is " name
